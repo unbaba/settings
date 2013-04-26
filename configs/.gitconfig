@@ -1,0 +1,60 @@
+[alias]
+# ===================================================
+# svn shortened command porting START
+# ===================================================
+praise = blame
+annotate = blame
+ann = blame
+cl = changelist
+# co = clone
+ci = commit
+# cp = copy
+del = rm
+remove = rm
+di = diff
+h = help
+ls = ls-files
+move = mv
+rename = mv
+ren = mv
+# propdel (pdel, pd)                propdel (pdel, pd)
+# propedit (pedit, pe)              propedit (pedit, pe)
+# propget (pget, pg)                propget (pget, pg)
+# proplist (plist, pl)              proplist (plist, pl)
+# propset (pset, ps)                propset (pset, ps)
+st = diff --name-status --relative
+# switch (sw)                       switch (sw)
+up = update
+
+# ===================================================
+# svn shortened command porting END
+# ===================================================
+
+
+# ===================================================
+# alias Defined by yteshima START
+# ===================================================
+# git checkout
+co = checkout
+# diff between working_tree to index
+dfw = diff --relative --no-prefix -U3
+# diff between index to loacl_repo
+dfi = diff --cached --relative --no-prefix -U3
+# diff between loacl_repo to remote_repo
+dflm = diff origin/master  --relative --no-prefix -U3
+dfld = diff origin/develop --relative --no-prefix -U3
+
+
+# status between working_tree to index
+stw = diff --name-status --relative
+# status between index to loacl_repo
+sti = status -uno -s
+# status between loacl_repo to remote_repo
+stlm = diff origin/master  --name-status
+stld = diff origin/develop --name-status
+
+[core]
+	pager = cat
+[user]
+	name = yteshima
+	email = 
