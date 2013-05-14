@@ -34,8 +34,12 @@ up = update
 # ===================================================
 # alias Defined by yteshima START
 # ===================================================
+# git branch
+br = branch
 # git checkout
 co = checkout
+# git cherry-pick
+cpick = cherry-pick
 # diff between working_tree to index
 dfw = diff --relative --no-prefix -U3
 # diff between index to loacl_repo
