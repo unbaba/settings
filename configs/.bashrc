@@ -16,7 +16,6 @@ PATH="$PATH":/opt/toolchain_arm_mvl/bin
 PATH="$PATH":/usr/include/libxml2/
 PATH="$PATH":./
 
-alias grep='grep --colour=auto'
 alias nfsdir='echo `pwd`/tmp/nfsmount-www'
 
 # SSH_ASKPASS should be unsetbecause 'git push' FAIL on ssh
