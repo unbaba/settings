@@ -38,6 +38,8 @@ up = update
 br = branch
 # git checkout
 co = checkout
+# git log with oneline and format
+logg = log --format="%h::::%an::::%s"
 # git cherry-pick
 cpick = cherry-pick
 # diff between working_tree to index
